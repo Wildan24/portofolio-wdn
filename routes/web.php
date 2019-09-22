@@ -12,3 +12,8 @@
 */
 
 Route::get('/', 'awal@index');
+Route::post('/pushData','awal@toko');
+
+Route::get('/login', 'login@index');
+Route::post('/daftar','login@register');
+Route::post('/masuk','login@masuk');
