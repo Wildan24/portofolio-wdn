@@ -17,3 +17,6 @@ Route::post('/pushData','awal@toko');
 Route::get('/login', 'login@index');
 Route::post('/daftar','login@register');
 Route::post('/masuk','login@masuk');
+Route::get('/keluar','login@keluar');
+Route::post('/AddCart','order@order');
+Route::get('/keranjang','order@keranjang');
